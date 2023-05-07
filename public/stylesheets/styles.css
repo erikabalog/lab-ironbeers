@@ -5,3 +5,27 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+nav {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: auto;
+}
+
+#nav-bar {
+  display: block;
+  background-color: #2081c3;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+.mug {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  padding-top: 40px;
+}
+

@@ -1,0 +1,4 @@
+{{#each beers}}
+    {{> beerpartial beer=this}} <!-- For each beer we get in the array, render the partial. You have to specify that you are passing 'this' object, which is every element of the array, as the parameter that the partial is expecting = 'beer' -->
+{{/each}}
+
